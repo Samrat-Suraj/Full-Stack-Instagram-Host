@@ -108,7 +108,7 @@ const Profile = () => {
                 </div>
             </div>
 
-            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4 overflow-y-auto h-full scrollbar-hide justify-center'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4 overflow-y-auto h-full scrollbar-hide'>
                 {
                     getBookMaksAndPostData?.length === 1 ? (
                         <div key={getBookMaksAndPostData[0]._id} className='relative group mx-auto'>
