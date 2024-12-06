@@ -21,7 +21,7 @@ const App = () => {
 
   useEffect(() => {
     if (user) {
-      const socketio = io("http://localhost:5000", {
+      const socketio = io("https://insta-uy4u.onrender.com", {
         query: {
           userId: user?._id
         },
