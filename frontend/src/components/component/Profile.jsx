@@ -141,7 +141,7 @@ const Profile = () => {
                                     <img className='w-full h-64 object-cover transition-all duration-300' src={post?.image} alt={post?.title} />
                                 </div>
                                 {/* Overlay content */}
-                                <div className='absolute top-0 left-0 right-0 bottom-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity duration-300'>
+                                <div className='absolute top-0 left-0 right-0 h-[260px] bottom-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity duration-300'>
                                     <div className='flex flex-col justify-center items-center h-full w-full'>
                                         <p className='text-white font-semibold text-xl'>{post?.caption}</p>
 
