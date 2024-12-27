@@ -75,7 +75,7 @@ const LoginSignUpPage = () => {
         <div className='flex flex-col h-screen w-screen justify-center items-center m-auto overflow-hidden'>
             <div>
                 <div className='w-[25%] min-w-[320px] m-auto border p-4'>
-                    <h1 className="text-3xl font-bold text-center text-[#0095F6]">InstaLolu</h1>
+                    <h1 className="text-3xl font-bold text-center text-[#0095F6]">Instagram</h1>
                     <p className='text-center font-semibold text-gray-500'>Sign up to see photos and videos <br />  from your friends.</p>
                     <form onSubmit={onSubmitHandler} className='flex flex-col gap-3 mt-5'>
 
